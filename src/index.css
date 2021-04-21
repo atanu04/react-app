@@ -1,19 +1,51 @@
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.header {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
-.h1 {
-  margin: auto;
-  width: 50%;
-  padding: 10px;
-  text-align: center;
+.btn {
+  float: right;
+  align-items: flex-end;
+  margin: 50px;
+  width: 60px;
+  height: 40px;
+  border: solid 2px rgb(26, 182, 209);
+  border-radius: 5px;
+  background-color: aqua;
+  font-size: 20px;
+  font-family: cursive;
+  cursor: pointer;
+}
+.task {
+  display: flex;
+  flex-direction: row;
+  background: #f4f4f4;
+  margin: 1rem 10rem;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.task h4 {
+  width: 90%;
+  height: 100%;
+  font-family: cursive;
+  font-style: oblique;
+  padding: 5px;
+}
+.task button {
+  border: solid 2px rgb(54, 4, 4);
+  border-radius: 5px;
+  background-color: rgb(241, 99, 118);
+  width: 30px;
+  height: 30px;
+  color: rgb(85, 5, 5);
+  font-size: large;
+  font-weight: bold;
 }

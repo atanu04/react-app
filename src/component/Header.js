@@ -3,7 +3,7 @@ const Header = ({ title, onAdd }) => {
   return (
     <div className="header">
       <h1>{title}</h1>
-      <Button className="button" color="green" text="Add" onAdd={onAdd} />
+      <Button color="green" text="Add" onAdd={onAdd} />
     </div>
   );
 };
